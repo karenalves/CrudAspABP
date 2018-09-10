@@ -176,6 +176,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Manager\IProductManager.cs" />
+    <Compile Include="Entities\Manager\ProductManager.cs" />
+    <Compile Include="Entities\ProductEntity\Product.cs" />
     <Compile Include="WikiTutorialConsts.cs" />
     <Compile Include="WikiTutorialCoreModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -184,6 +187,7 @@
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

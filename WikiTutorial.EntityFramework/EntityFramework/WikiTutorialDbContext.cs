@@ -1,11 +1,14 @@
 ﻿using System.Data.Common;
+using System.Data.Entity;
 using Abp.EntityFramework;
+using WikiTutorial.Entities.ProductEntity;
 
 namespace WikiTutorial.EntityFramework
 {
     public class WikiTutorialDbContext : AbpDbContext
     {
         //TODO: Define an IDbSet for each Entity...
+        public virtual IDbSet<Product> Products { get; set; }
 
         //Example:
         //public virtual IDbSet<User> Users { get; set; }
