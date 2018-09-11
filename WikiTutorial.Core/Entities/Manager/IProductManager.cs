@@ -10,7 +10,7 @@ namespace WikiTutorial.Entities.Manager
     public interface IProductManager
     {
         Task<long> Create(Product produto);
-        Task<long> Update(Product produto);
+        Task<Product> Update(Product produto);
         Task Delete(long id);
         Task<Product> GetById(long id);
         Task<List<Product>> GetAllList();

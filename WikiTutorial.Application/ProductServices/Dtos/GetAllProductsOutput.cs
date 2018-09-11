@@ -8,6 +8,6 @@ namespace WikiTutorial.ProductServices.Dtos
 {
     public class GetAllProductsOutput
     {
-        public List<GetAllProductsItem> Produtos { get; set; }
+        public List<GetAllProductsItem> Products { get; set; }
     }
 }

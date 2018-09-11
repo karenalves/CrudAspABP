@@ -38,11 +38,9 @@ namespace WikiTutorial.Entities.Manager
             return await _productRepository.GetAsync(id);
         }
 
-        public async Task<long> Update(Product produto)
+        public async Task<Product> Update(Product product)
         {
-            var atualizado = await _productRepository.UpdateAsync(produto);
-
-            return atualizado.Id;
+            return await _productRepository.UpdateAsync(product);
         }
     }
 }

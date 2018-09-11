@@ -25,43 +25,45 @@ namespace WikiTutorial.ProductServices
         {
             var produto = input.MapTo<Product>();
             var createdProdutoId = await _productManager.Create(produto);
+            return new CreateProductOutput
+            {
+                Id = createdProdutoId
+            };
 
+        }
+
+        public async Task<CreateProductOutput> CreateProductAsync(CreateProductInput input)
+        {
+            var produto = input.MapTo<Product>();
+            var createdProdutoId = await _productManager.Create(produto);
             return new CreateProductOutput
             {
                 Id = createdProdutoId
             };
         }
 
-        public Task DeleteProduct(long id)
+        public async Task DeleteProduct(long id)
         {
-            return _productManager.Delete(id);
+            await _productManager.Delete(id);
         }
 
         public async Task<GetAllProductsOutput> GetAllProducts()
         {
             var produtos = await _productManager.GetAllList();
-
-            return new GetAllProductsOutput
-            {
-                Produtos = Mapper.Map<List<GetAllProductsItem>>(produtos)
-            };
-
+            return new GetAllProductsOutput { Products = Mapper.Map<List<GetAllProductsItem>>(produtos) };
         }
 
         public async Task<GetProductByIdOutput> GetById(long id)
         {
             var produto = await _productManager.GetById(id);
-
-            //return produto;
-            return Mapper.Map<GetProductByIdOutput>(produto);
+            return produto.MapTo<GetProductByIdOutput>();
         }
 
         public async Task<UpdateProductOutput> UpdateProduct(UpdateProductInput input)
         {
             var produto = input.MapTo<Product>();
-            long produtoAtualizado = await _productManager.Update(produto);
-
-            return Mapper.Map<UpdateProductOutput>(produtoAtualizado);
+            var produtoUpdated = await _productManager.Update(produto);
+            return produtoUpdated.MapTo<UpdateProductOutput>();
         }
     }
 }

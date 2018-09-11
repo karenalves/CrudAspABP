@@ -1,29 +1,22 @@
 ﻿(function () {
-    //use strict é um padrão de boa prática
     'use strict';
 
-    //inicialização do angular
     angular
         .module('app')
         .controller('app.views.products.product_index', ProductController)
 
-    //injeção de componentes, como 
-    //suporte para modal, serviço de tradução e a appservice de products
     ProductController.$inject =
         [
             '$uibModal',
             'abp.services.app.product',
-            '$location',
             '$state',
             '$timeout'
         ];
 
-    function ProductController($uibModal, productService, $location, $state, $timeout) {
-        //nunca se esqueça de definir o vm como escopo
-        var vm = this;
+    function ProductController($uibModal, productService, $state, $timeout) {
+        /* jshint validthis:true */
 
-        //vm.createProduct, é uma variável que pode ser acessada no HTML
-        //e que faz referencia a uma função chamada createProduct
+        var vm = this;
         vm.createProduct = createProduct;
         vm.editProduct = editProduct;
         vm.delete = Delete;
@@ -31,9 +24,7 @@
 
         vm.products = [];
 
-        //chamada da função activate()
         activate();
-
 
         function activate() {
             abp.ui.setBusy();
@@ -50,7 +41,7 @@
                 .catch(unblockByError);
 
             function fillProducts(result) {
-                vm.products = result.data.produtos;
+                vm.products = result.data.products;
                 abp.ui.clearBusy();
             }
 
