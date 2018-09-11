@@ -30,6 +30,10 @@
                     url: '/about',
                     templateUrl: '/App/Main/views/about/about.cshtml',
                     menu: 'About' //Matches to name of 'About' menu in WikiTutorialNavigationProvider
+                }).state('products', {
+                    url: '/products',
+                    templateUrl: '/App/Main/views/products/product_index.cshtml',
+                    menu: 'Products'
                 });
         }
     ]);

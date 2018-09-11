@@ -39,11 +39,11 @@ namespace WikiTutorial.ProductServices
 
         public async Task<GetAllProductsOutput> GetAllProducts()
         {
-            var produto = await _productManager.GetAllList();
+            var produtos = await _productManager.GetAllList();
 
             return new GetAllProductsOutput
             {
-                Produtos = Mapper.Map<List<GetAllProductsItem>>(produto)
+                Produtos = Mapper.Map<List<GetAllProductsItem>>(produtos)
             };
 
         }

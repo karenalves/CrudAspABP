@@ -1,0 +1,29 @@
+﻿.table-truncate {
+    position: relative;
+}
+
+.table-truncate__body {
+    position: absolute;
+    max-width: 95%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.td--1 {
+    width: 20%;
+}
+
+.td--2 {
+    width: 50%;
+}
+
+.td--3 {
+    width: 10%;
+    vertical-align: top;
+}
+
+.td--4 {
+    width: 20%;
+    vertical-align: top;
+}

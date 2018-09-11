@@ -28,6 +28,13 @@ namespace WikiTutorial.Web
                         url: "#/about",
                         icon: "fa fa-info"
                         )
+                ).AddItem(
+                    new MenuItemDefinition(
+                        "Products",
+                        new LocalizableString("Products", WikiTutorialConsts.LocalizationSourceName),
+                        url: "#/products",
+                        icon: "fa fa-shopping-basket"
+                        )
                 );
         }
     }
