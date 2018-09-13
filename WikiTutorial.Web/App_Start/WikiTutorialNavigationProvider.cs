@@ -35,6 +35,13 @@ namespace WikiTutorial.Web
                         url: "#/products",
                         icon: "fa fa-shopping-basket"
                         )
+                ).AddItem(
+                    new MenuItemDefinition(
+                        "Client",
+                        new LocalizableString("Client", WikiTutorialConsts.LocalizationSourceName),
+                        url: "#/client",
+                        icon: "fa fa-user"
+                        )
                 );
         }
     }

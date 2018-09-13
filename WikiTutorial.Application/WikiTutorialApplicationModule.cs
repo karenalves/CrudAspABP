@@ -1,6 +1,8 @@
 ﻿using System.Reflection;
 using Abp.AutoMapper;
 using Abp.Modules;
+using WikiTutorial.ClientServices.Dtos;
+using WikiTutorial.Entities.ClientEntity;
 using WikiTutorial.Entities.ProductEntity;
 using WikiTutorial.ProductServices.Dtos;
 
@@ -19,6 +21,12 @@ namespace WikiTutorial
 
                 config.CreateMap<UpdateProductInput, Product>()
                 .ConstructUsing(x => new Product(x.Name, x.Description, x.Value));
+
+                config.CreateMap<CreateClientInput, Client>()
+               .ConstructUsing(x => new Client(x.Name, x.LastName, x.Cpf));
+
+                config.CreateMap<UpdateClientInput, Client>()
+                .ConstructUsing(x => new Client(x.Name, x.LastName, x.Cpf));
             });
         }
 

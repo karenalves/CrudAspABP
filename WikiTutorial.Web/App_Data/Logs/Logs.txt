@@ -1981,3 +1981,955 @@ WARN  2018-09-11 16:34:54,230 [6    ] Abp.Logging.LogHelper                    -
 WARN  2018-09-11 16:35:07,213 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'EditProduct' in localization source 'WikiTutorial'!
 WARN  2018-09-11 16:35:07,214 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'WikiTutorial'!
 WARN  2018-09-11 16:35:07,214 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'WikiTutorial'!
+DEBUG 2018-09-12 09:47:08,029 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-12 09:47:08,058 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-12 09:47:08,103 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 09:47:08,105 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 09:47:08,105 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 09:47:08,105 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 09:47:08,105 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 09:47:08,105 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 09:47:08,106 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 09:47:08,106 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 09:47:08,106 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 09:47:08,106 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 09:47:08,106 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 09:47:08,107 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 09:47:08,107 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 09:47:08,110 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-12 09:47:08,805 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 09:47:13,490 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-12 09:47:13,578 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-12 09:47:13,587 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-12 09:47:13,660 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-12 09:47:14,051 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-12 09:47:14,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-12 09:47:14,397 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+WARN  2018-09-12 09:47:25,420 [5    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-12 09:47:25,462 [5    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-12 09:48:07,718 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'EditProduct' in localization source 'WikiTutorial'!
+WARN  2018-09-12 09:48:07,719 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'WikiTutorial'!
+WARN  2018-09-12 09:48:07,719 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'WikiTutorial'!
+DEBUG 2018-09-12 11:24:10,794 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-12 11:24:10,817 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-12 11:24:10,822 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 11:24:10,824 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 11:24:10,824 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 11:24:10,825 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 11:24:10,825 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 11:24:10,825 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 11:24:10,825 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 11:24:10,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 11:24:10,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 11:24:10,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 11:24:10,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 11:24:10,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 11:24:10,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 11:24:10,830 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-12 11:24:11,335 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 11:24:15,792 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-12 11:24:15,887 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-12 11:24:15,895 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-12 11:24:15,971 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-12 11:24:16,407 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-12 11:24:16,487 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-12 11:24:16,773 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-12 11:24:16,774 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-12 11:24:28,048 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-12 11:24:28,144 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-09-12 12:19:31,855 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-12 12:19:31,893 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-12 12:19:31,901 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 12:19:31,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 12:19:31,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 12:19:31,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 12:19:31,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 12:19:31,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 12:19:31,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 12:19:31,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 12:19:31,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 12:19:31,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 12:19:31,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 12:19:31,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 12:19:31,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 12:19:31,909 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-12 12:19:32,583 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 12:19:37,661 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-12 12:19:37,883 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-12 12:19:37,950 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-12 12:19:38,054 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-12 12:19:38,515 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-12 12:19:38,669 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-12 12:19:38,957 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-12 12:19:38,960 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-12 12:19:52,789 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-12 12:19:52,918 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-09-12 14:09:09,450 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-12 14:09:09,485 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-12 14:09:09,491 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:09:09,492 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:09:09,492 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:09:09,493 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:09:09,493 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:09:09,493 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:09:09,493 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:09:09,493 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:09:09,494 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:09:09,494 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:09:09,494 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:09:09,494 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:09:09,494 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:09:09,497 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-12 14:09:09,974 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:09:13,824 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-12 14:09:13,909 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-12 14:09:13,918 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-12 14:09:13,981 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-12 14:09:14,256 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-12 14:09:14,366 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-12 14:09:14,621 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-12 14:09:14,622 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-12 14:09:28,261 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'WikiTutorial'!
+WARN  2018-09-12 14:09:28,325 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-12 14:09:28,448 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-09-12 14:12:33,998 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-12 14:12:34,021 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-12 14:12:34,026 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:12:34,028 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:12:34,028 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:12:34,028 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:12:34,028 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:12:34,029 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:12:34,029 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:12:34,029 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:12:34,029 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:12:34,029 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:12:34,030 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:12:34,030 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:12:34,030 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:12:34,033 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-12 14:12:34,540 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:12:37,872 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-12 14:12:38,394 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-12 14:12:38,429 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-12 14:12:38,736 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-12 14:12:40,196 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-12 14:12:40,368 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-12 14:12:40,794 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-12 14:12:40,795 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-12 14:12:49,810 [11   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-12 14:12:49,860 [11   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-09-12 14:23:53,350 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-12 14:23:54,978 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-12 14:23:54,987 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:23:54,990 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:23:54,990 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:23:54,990 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:23:54,991 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:23:54,991 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:23:54,992 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:23:54,992 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:23:54,992 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:23:54,992 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:23:54,993 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:23:54,993 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:23:54,993 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:23:54,998 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-12 14:24:01,916 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:24:04,330 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-12 14:24:04,494 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-12 14:24:04,538 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-12 14:24:04,602 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-12 14:24:06,065 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-12 14:24:06,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-12 14:24:07,294 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-12 14:24:07,295 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-12 14:24:19,893 [5    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-12 14:24:19,984 [5    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-09-12 14:35:35,075 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-12 14:35:36,913 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-12 14:35:36,924 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:35:36,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:35:36,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:35:36,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:35:36,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:35:36,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:35:36,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:35:36,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:35:36,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:35:36,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:35:36,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:35:36,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:35:36,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:35:36,962 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-12 14:35:40,806 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:35:43,194 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-12 14:35:43,637 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-12 14:35:43,677 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-12 14:35:43,833 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-12 14:35:45,402 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-12 14:35:45,776 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-12 14:35:46,228 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-12 14:35:46,229 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-12 14:35:56,930 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-12 14:35:57,074 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-09-12 14:43:49,024 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-12 14:43:50,207 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-12 14:43:50,214 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:43:50,216 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:43:50,217 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:43:50,217 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:43:50,217 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:43:50,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:43:50,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:43:50,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:43:50,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:43:50,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:43:50,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:43:50,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:43:50,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:43:50,226 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-12 14:43:52,390 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 14:43:52,837 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-12 14:43:52,915 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-12 14:43:52,929 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-12 14:43:53,018 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-12 14:43:53,780 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-12 14:43:53,949 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-12 14:43:54,219 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-12 14:43:54,222 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-12 14:44:01,904 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-12 14:44:02,085 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-09-12 15:11:54,133 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-12 15:11:54,146 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-12 15:11:54,152 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:11:54,154 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:11:54,154 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:11:54,154 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:11:54,154 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:11:54,154 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:11:54,155 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:11:54,155 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:11:54,155 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:11:54,155 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:11:54,155 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:11:54,155 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:11:54,156 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:11:54,159 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-12 15:11:54,822 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:11:59,874 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-12 15:11:59,973 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-12 15:11:59,992 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-12 15:12:00,467 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-12 15:12:00,772 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-12 15:12:00,868 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-12 15:12:01,112 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-12 15:12:01,113 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-12 15:12:13,796 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-12 15:12:13,876 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-09-12 15:19:46,022 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-12 15:19:46,624 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-12 15:19:46,633 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:19:46,636 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:19:46,636 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:19:46,636 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:19:46,637 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:19:46,637 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:19:46,638 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:19:46,638 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:19:46,639 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:19:46,639 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:19:46,639 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:19:46,640 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:19:46,640 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:19:46,643 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-12 15:19:48,340 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:19:48,940 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-12 15:19:49,011 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-12 15:19:49,034 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-12 15:19:49,113 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-12 15:19:49,551 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-12 15:19:49,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-12 15:19:50,422 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-12 15:19:50,424 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+DEBUG 2018-09-12 15:21:09,464 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-12 15:21:09,806 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-12 15:21:09,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:21:09,813 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:21:09,813 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:21:09,813 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:21:09,813 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:21:09,813 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:21:09,814 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:21:09,814 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:21:09,814 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:21:09,814 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:21:09,815 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:21:09,815 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:21:09,815 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:21:09,818 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-12 15:21:10,474 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 15:21:10,841 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-12 15:21:10,915 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-12 15:21:10,932 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-12 15:21:10,938 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-12 15:21:11,317 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-12 15:21:11,557 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-12 15:21:12,128 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-12 15:21:12,130 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-12 15:21:22,535 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-12 15:21:22,598 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-09-12 16:57:39,252 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-12 16:57:39,290 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-12 16:57:39,295 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 16:57:39,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 16:57:39,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 16:57:39,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 16:57:39,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 16:57:39,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 16:57:39,299 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 16:57:39,299 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 16:57:39,299 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 16:57:39,299 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 16:57:39,299 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 16:57:39,299 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 16:57:39,300 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 16:57:39,303 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-12 16:57:39,926 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 16:57:45,154 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-12 16:57:45,243 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-12 16:57:45,263 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-12 16:57:45,351 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-12 16:57:45,734 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-12 16:57:45,846 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-12 16:57:46,076 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-12 16:57:46,077 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-12 16:57:57,856 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-12 16:57:57,939 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-09-12 17:50:11,627 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-12 17:50:13,635 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-12 17:50:13,642 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 17:50:13,644 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 17:50:13,645 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 17:50:13,645 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 17:50:13,645 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 17:50:13,645 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 17:50:13,645 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 17:50:13,646 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 17:50:13,646 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 17:50:13,646 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 17:50:13,646 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 17:50:13,646 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 17:50:13,646 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 17:50:13,665 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-12 17:50:18,957 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-12 17:50:21,560 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-12 17:50:21,844 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-12 17:50:21,911 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-12 17:50:22,275 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-12 17:50:24,506 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-12 17:50:25,216 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-12 17:50:25,718 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-12 17:50:25,719 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-12 17:50:38,075 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-12 17:50:38,196 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-09-13 08:12:34,472 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-13 08:12:36,375 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-13 08:12:36,380 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:12:36,382 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:12:36,382 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:12:36,383 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:12:36,383 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:12:36,383 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:12:36,383 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:12:36,383 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:12:36,384 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:12:36,384 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:12:36,384 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:12:36,385 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:12:36,385 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:12:36,389 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-13 08:12:39,206 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:12:40,290 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-13 08:12:40,441 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-13 08:12:40,459 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-13 08:12:40,573 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-13 08:12:41,728 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-13 08:12:42,160 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-13 08:12:42,491 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-13 08:12:42,493 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-13 08:12:52,662 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 08:12:52,821 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-09-13 08:19:13,661 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-13 08:19:14,276 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-13 08:19:14,281 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:19:14,283 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:19:14,283 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:19:14,284 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:19:14,284 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:19:14,284 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:19:14,284 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:19:14,284 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:19:14,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:19:14,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:19:14,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:19:14,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:19:14,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:19:14,288 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-13 08:19:16,010 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:19:16,349 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-13 08:19:16,403 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-13 08:19:16,412 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-13 08:19:16,467 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-13 08:19:17,447 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-13 08:19:17,684 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-13 08:19:18,161 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-13 08:19:18,162 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-13 08:19:28,790 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 08:19:28,861 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 08:24:28,951 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:24:28,952 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:29:44,485 [33   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:29:44,486 [33   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:31:05,897 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:31:05,897 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:32:28,204 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:32:28,205 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:33:42,821 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:33:42,821 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:34:00,443 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:34:00,443 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:41:21,044 [59   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:41:21,045 [59   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'WikiTutorial'!
+DEBUG 2018-09-13 08:42:42,849 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-13 08:42:43,875 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-13 08:42:43,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:42:43,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:42:43,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:42:43,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:42:43,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:42:43,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:42:43,893 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:42:43,893 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:42:43,893 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:42:43,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:42:43,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:42:43,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:42:43,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:42:43,899 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-13 08:42:46,496 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:42:47,261 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-13 08:42:47,424 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-13 08:42:47,438 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-13 08:42:47,509 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-13 08:42:48,342 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-13 08:42:48,545 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-13 08:42:48,859 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-13 08:42:48,860 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-13 08:42:57,971 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 08:42:58,016 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 08:43:13,029 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:43:13,030 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'WikiTutorial'!
+DEBUG 2018-09-13 08:44:32,302 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-13 08:44:33,430 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-13 08:44:33,445 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:44:33,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:44:33,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:44:33,449 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:44:33,449 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:44:33,449 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:44:33,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:44:33,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:44:33,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:44:33,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:44:33,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:44:33,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:44:33,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:44:33,456 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-13 08:44:34,770 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:44:35,290 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-13 08:44:35,373 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-13 08:44:35,392 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-13 08:44:35,451 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-13 08:44:36,271 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-13 08:44:36,494 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-13 08:44:36,782 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-13 08:44:36,783 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-13 08:44:41,069 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 08:44:41,147 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 08:44:48,793 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:44:48,793 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'WikiTutorial'!
+DEBUG 2018-09-13 08:47:47,609 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-13 08:47:48,026 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-13 08:47:48,032 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:47:48,034 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:47:48,034 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:47:48,034 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:47:48,035 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:47:48,035 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:47:48,035 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:47:48,035 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:47:48,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:47:48,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:47:48,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:47:48,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:47:48,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:47:48,039 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-13 08:47:48,873 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:47:49,251 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-13 08:47:49,347 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-13 08:47:49,366 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-13 08:47:49,370 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-13 08:47:50,181 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-13 08:47:50,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-13 08:47:50,782 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-13 08:47:50,783 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-13 08:47:56,115 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 08:47:56,167 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 08:48:05,338 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:48:05,338 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'WikiTutorial'!
+DEBUG 2018-09-13 08:50:04,707 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-13 08:50:05,209 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-13 08:50:05,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:50:05,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:50:05,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:50:05,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:50:05,221 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:50:05,221 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:50:05,221 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:50:05,222 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:50:05,222 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:50:05,222 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:50:05,223 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:50:05,223 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:50:05,223 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:50:05,226 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-13 08:50:06,736 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:50:07,252 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-13 08:50:07,353 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-13 08:50:07,380 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-13 08:50:07,389 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-13 08:50:07,873 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-13 08:50:08,065 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-13 08:50:08,455 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-13 08:50:08,456 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+DEBUG 2018-09-13 08:51:37,074 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-13 08:51:37,415 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-13 08:51:37,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:51:37,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:51:37,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:51:37,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:51:37,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:51:37,424 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:51:37,424 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:51:37,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:51:37,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:51:37,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:51:37,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:51:37,427 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:51:37,427 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:51:37,431 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-13 08:51:38,049 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:51:38,344 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-13 08:51:38,399 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-13 08:51:38,407 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-13 08:51:38,410 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-13 08:51:38,898 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-13 08:51:39,078 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-13 08:51:39,506 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-13 08:51:39,508 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-13 08:51:44,629 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 08:51:44,677 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 08:52:11,679 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'EditProduct' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:52:11,679 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:52:11,679 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:52:34,209 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'EditProduct' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:52:34,209 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:52:34,209 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:52:45,912 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'EditProduct' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:52:45,912 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:52:45,912 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'WikiTutorial'!
+DEBUG 2018-09-13 08:56:56,650 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-13 08:56:57,557 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-13 08:56:57,565 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:56:57,568 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:56:57,569 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:56:57,569 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:56:57,569 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:56:57,569 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:56:57,570 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:56:57,570 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:56:57,571 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:56:57,571 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:56:57,571 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:56:57,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:56:57,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:56:57,577 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-13 08:56:59,626 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 08:57:00,205 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-13 08:57:00,297 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-13 08:57:00,309 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-13 08:57:00,399 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-13 08:57:01,089 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-13 08:57:01,372 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-13 08:57:01,715 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-13 08:57:01,716 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-13 08:57:10,888 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 08:57:10,934 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 08:57:33,107 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Create or Edit Cliente' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:57:33,108 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Last Name' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:57:33,108 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:57:33,108 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:58:13,317 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Create or Edit Cliente' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:58:13,318 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Last Name' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:58:13,318 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'WikiTutorial'!
+WARN  2018-09-13 08:58:13,318 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'WikiTutorial'!
+DEBUG 2018-09-13 09:00:57,788 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-13 09:00:57,801 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-13 09:00:57,808 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:00:57,809 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:00:57,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:00:57,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:00:57,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:00:57,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:00:57,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:00:57,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:00:57,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:00:57,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:00:57,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:00:57,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:00:57,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:00:57,815 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-13 09:00:58,136 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:01:01,416 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-13 09:01:01,483 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-13 09:01:01,506 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-13 09:01:01,582 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-13 09:01:01,794 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-13 09:01:01,905 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-13 09:01:02,151 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-13 09:01:02,152 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-13 09:01:09,690 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 09:01:09,737 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 09:01:22,763 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Create or Edit Cliente' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:01:22,764 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Last Name' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:01:22,764 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:01:22,764 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'WikiTutorial'!
+DEBUG 2018-09-13 09:05:23,831 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-13 09:05:24,951 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-13 09:05:24,961 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:05:24,964 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:05:24,965 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:05:24,965 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:05:24,965 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:05:24,965 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:05:24,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:05:24,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:05:24,967 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:05:24,967 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:05:24,967 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:05:24,967 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:05:24,968 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:05:24,972 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-13 09:05:28,567 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:05:29,027 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-13 09:05:29,104 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-13 09:05:29,115 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-13 09:05:29,147 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-13 09:05:29,918 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-13 09:05:30,430 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-13 09:05:31,081 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-13 09:05:31,082 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-13 09:05:39,885 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 09:05:39,954 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 09:05:55,465 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Create or Edit Cliente' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:05:55,466 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Last Name' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:05:55,466 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:05:55,466 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:06:36,011 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Create or Edit Cliente' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:06:36,011 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Last Name' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:06:36,011 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:06:36,011 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:06:47,670 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Create or Edit Cliente' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:06:47,670 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Last Name' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:06:47,670 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:06:47,670 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'WikiTutorial'!
+DEBUG 2018-09-13 09:08:17,473 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-13 09:08:18,338 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-13 09:08:18,344 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:08:18,346 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:08:18,346 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:08:18,346 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:08:18,346 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:08:18,347 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:08:18,347 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:08:18,347 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:08:18,347 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:08:18,348 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:08:18,348 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:08:18,348 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:08:18,348 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:08:18,351 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-13 09:08:19,741 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:08:20,070 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-13 09:08:20,128 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-13 09:08:20,140 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-13 09:08:20,144 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-13 09:08:20,555 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-13 09:08:20,675 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-13 09:08:20,964 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-13 09:08:20,965 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-13 09:08:27,711 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 09:08:27,801 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 09:10:10,205 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Create or Edit Cliente' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:10:10,205 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Last Name' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:10:10,205 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:10:10,205 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'WikiTutorial'!
+DEBUG 2018-09-13 09:18:55,067 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-13 09:18:56,228 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-13 09:18:56,235 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:18:56,238 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:18:56,238 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:18:56,238 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:18:56,238 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:18:56,239 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:18:56,239 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:18:56,240 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:18:56,240 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:18:56,240 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:18:56,240 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:18:56,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:18:56,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:18:56,245 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-13 09:18:58,827 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:18:59,139 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-13 09:18:59,208 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-13 09:18:59,216 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-13 09:18:59,331 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-13 09:19:00,050 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-13 09:19:00,229 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-13 09:19:00,531 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-13 09:19:00,534 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+DEBUG 2018-09-13 09:19:52,349 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-13 09:19:52,724 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-13 09:19:52,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:19:52,733 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:19:52,733 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:19:52,733 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:19:52,733 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:19:52,733 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:19:52,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:19:52,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:19:52,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:19:52,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:19:52,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:19:52,735 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:19:52,735 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:19:52,738 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-13 09:19:53,402 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:19:53,696 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-13 09:19:53,761 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-13 09:19:53,770 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-13 09:19:53,774 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-13 09:19:54,118 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-13 09:19:54,335 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-13 09:19:54,791 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-13 09:19:54,793 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-13 09:20:01,270 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 09:20:01,342 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-09-13 09:36:20,219 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-13 09:36:21,108 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-13 09:36:21,115 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:36:21,117 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:36:21,117 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:36:21,118 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:36:21,118 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:36:21,118 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:36:21,118 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:36:21,119 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:36:21,119 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:36:21,119 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:36:21,119 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:36:21,119 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:36:21,120 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:36:21,123 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-13 09:36:22,586 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:36:23,044 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-13 09:36:23,154 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-13 09:36:23,167 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-13 09:36:23,227 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-13 09:36:23,836 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-13 09:36:24,068 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-13 09:36:24,372 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-13 09:36:24,374 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-13 09:36:34,405 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 09:36:34,463 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 09:37:03,109 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:37:03,110 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Create New Cliente' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:37:10,029 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Create or Edit Cliente' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:37:10,029 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Last Name' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:37:10,029 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:37:10,029 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'WikiTutorial'!
+ERROR 2018-09-13 09:37:40,726 [6    ] nHandling.AbpApiExceptionFilterAttribute - 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+====================================================================
+Int64 -> CreateClientOutput (Destination member list)
+System.Int64 -> WikiTutorial.ClientServices.Dtos.CreateClientOutput (Destination member list)
+
+Unmapped properties:
+Id
+
+AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+====================================================================
+Int64 -> CreateClientOutput (Destination member list)
+System.Int64 -> WikiTutorial.ClientServices.Dtos.CreateClientOutput (Destination member list)
+
+Unmapped properties:
+Id
+
+   em AutoMapper.ConfigurationValidator.AssertConfigurationIsValid(IEnumerable`1 typeMaps)
+   em AutoMapper.MapperConfiguration.AssertConfigurationIsValid(TypeMap typeMap)
+   em lambda_method(Closure , Int64 , CreateClientOutput , ResolutionContext )
+   em lambda_method(Closure , Object , Object , ResolutionContext )
+   em AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   em AutoMapper.Mapper.Map[TDestination](Object source)
+   em Abp.AutoMapper.AutoMapExtensions.MapTo[TDestination](Object source)
+   em WikiTutorial.ClientServices.ClientAppService.<CreateClient>d__6.MoveNext() na C:\Users\soitic\Desktop\soitic\CrudAspABP\WikiTutorial.Application\ClientServices\ClientAppService.cs:linha 28
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__1`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+DEBUG 2018-09-13 09:41:27,849 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-13 09:41:27,876 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-13 09:41:27,896 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:41:27,898 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:41:27,898 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:41:27,898 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:41:27,898 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:41:27,898 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:41:27,899 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:41:27,899 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:41:27,899 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:41:27,899 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:41:27,899 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:41:27,899 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:41:27,899 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:41:27,903 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-13 09:41:28,316 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:41:31,406 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-13 09:41:31,475 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-13 09:41:31,487 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-13 09:41:31,585 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-13 09:41:31,755 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-13 09:41:31,829 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-13 09:41:32,069 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-13 09:41:32,070 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-13 09:41:39,550 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 09:41:39,607 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 09:41:51,835 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:41:51,835 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Create New Cliente' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:41:57,647 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Create or Edit Cliente' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:41:57,647 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Last Name' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:41:57,647 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:41:57,647 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:42:59,491 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Create New Cliente' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:43:01,158 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Create New Cliente' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:44:19,923 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'CreateNewCliente' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:44:22,503 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreateNewCliente' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:44:33,000 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreateNewCliente' in localization source 'WikiTutorial'!
+WARN  2018-09-13 09:44:40,757 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'CreateNewCliente' in localization source 'WikiTutorial'!
+DEBUG 2018-09-13 09:45:34,190 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-13 09:45:34,924 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-13 09:45:34,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:45:34,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:45:34,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:45:34,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:45:34,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:45:34,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:45:34,935 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:45:34,935 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:45:34,935 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:45:34,935 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:45:34,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:45:34,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:45:34,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:45:34,941 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-13 09:45:36,492 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:45:36,822 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-13 09:45:36,883 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-13 09:45:36,891 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-13 09:45:36,990 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-13 09:45:37,471 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-13 09:45:37,650 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-13 09:45:38,009 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-13 09:45:38,011 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-13 09:45:44,080 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 09:45:44,170 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-09-13 09:46:50,381 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-13 09:46:50,402 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-13 09:46:50,408 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:46:50,409 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:46:50,410 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:46:50,410 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:46:50,410 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:46:50,410 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:46:50,410 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:46:50,410 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:46:50,411 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:46:50,411 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:46:50,411 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:46:50,411 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:46:50,411 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:46:50,414 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-13 09:46:50,772 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 09:46:54,378 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-13 09:46:54,445 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-13 09:46:54,458 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-13 09:46:54,462 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-13 09:46:54,611 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-13 09:46:54,685 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-13 09:46:54,915 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-13 09:46:54,916 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-13 09:47:02,128 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 09:47:02,197 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.

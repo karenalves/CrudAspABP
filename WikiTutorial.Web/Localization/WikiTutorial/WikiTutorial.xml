@@ -14,10 +14,10 @@
     <text name="ForMoreInformation" value="For more information" />
 
     <text name="CreateNewProduct" value="Create new product" />
-    <text name="Name" value="Name" />
+    <text name="Name" value="Nome" />
     <text name="Description" value="Description" />
     <text name="Refresh" value="Refresh" />
-    <text name="Actions" value="Actions" />
+    <text name="Actions" value="Ações" />
     <text name="Value" value="Value" />
     <text name="Select" value="Select" />
     <text name="Details" value="Details" />
@@ -25,9 +25,15 @@
     <text name="Products" value="Produtos" />
     <text name="Product" value="Product" />
     <text name="ProductId" value="Product ID" />
-    <text name="New" value="New" />
-    <text name="Edit" value="Edit" />
-    <text name="Delete" value="Delete" />
+    <text name="New" value="Novo" />
+    <text name="Edit" value="Editar" />
+    <text name="Delete" value="Deletar" />
     <text name="Ok" value="Ok" />
+  
+    <text name="Client" value="Clientes" />
+    <text name="LastName" value="Sobrenome" />
+    <text name="Cpf" value="Cpf" />
+    <text name="EditClient" value="Editar Cliente" />  
+    <text name="CreateNewCliente" value="Novo Cliente" />
   </texts>
 </localizationDictionary>

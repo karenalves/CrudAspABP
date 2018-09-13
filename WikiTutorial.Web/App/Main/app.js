@@ -34,6 +34,10 @@
                     url: '/products',
                     templateUrl: '/App/Main/views/products/product_index.cshtml',
                     menu: 'Products'
+                }).state('client', {
+                    url: '/client',
+                    templateUrl: '/App/Main/views/client/client_index.cshtml',
+                    menu: 'client'
                 });
         }
     ]);

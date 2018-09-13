@@ -176,6 +176,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\ClientEntity\Client.cs" />
+    <Compile Include="Entities\ClientEntity\Manager\ClientManager.cs" />
+    <Compile Include="Entities\ClientEntity\Manager\IClientManager.cs" />
     <Compile Include="Entities\Manager\IProductManager.cs" />
     <Compile Include="Entities\Manager\ProductManager.cs" />
     <Compile Include="Entities\ProductEntity\Product.cs" />

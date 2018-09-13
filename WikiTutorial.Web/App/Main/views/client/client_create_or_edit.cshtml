@@ -1,0 +1,51 @@
+﻿<form id="frm_edit_cliente" name="clienteEditForm" novalidate>
+    <div class="modal-header">
+        <button type="button" class="close" ng-click="vm.cancel()" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">
+            <span>@L("Create or Edit Cliente")</span>
+        </h4>
+    </div>
+    <div class="modal-body">
+        <div class="row clearfix">
+            <div class="col-sm-6">
+                <div class="form-group form-float">
+                    <label for="clientename" class="form-label">@L("Name")</label>
+                    <div class="form-line">
+                        <input id="clientename" type="text" name="ClienteName" ng-model="vm.cliente.name" required maxlength="32" minlength="2" class="validate form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-group form-float">
+                    <label for="lastname" class="form-label">@L("Last Name")</label>
+                    <div class="form-line">
+                        <input id="lastname" type="text" name="LastName" ng-model="vm.cliente.lastName" required maxlength="50" minlength="2" class="validate form-control">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="col-sm-12">
+                <div class="form-group form-float">
+                    <label for="cpf" class="form-label">@L("Cpf")</label>
+                    <div class="form-line">
+                        <input id="cpf" type="text" name="Cpf" ng-model="vm.cliente.cpf" required maxlength="50" minlength="8" class="validate form-control">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default waves-effect" ng-click="vm.cancel()">
+            @L("Cancel")
+        </button>
+        <button type="submit" class="btn btn-primary waves-effect" ng-click="vm.save()" ng-disabled="clienteEditForm.$invalid">
+            @L("Save")
+        </button>
+    </div>
+</form>

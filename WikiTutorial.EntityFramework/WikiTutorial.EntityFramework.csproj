@@ -197,6 +197,10 @@
     <Compile Include="Migrations\201809102042050_add_inicial.Designer.cs">
       <DependentUpon>201809102042050_add_inicial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201809121803230_add_cliente.cs" />
+    <Compile Include="Migrations\201809121803230_add_cliente.Designer.cs">
+      <DependentUpon>201809121803230_add_cliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="WikiTutorialDataModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -214,6 +218,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201809102042050_add_inicial.resx">
       <DependentUpon>201809102042050_add_inicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809121803230_add_cliente.resx">
+      <DependentUpon>201809121803230_add_cliente.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

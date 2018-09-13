@@ -1,6 +1,7 @@
 ﻿using System.Data.Common;
 using System.Data.Entity;
 using Abp.EntityFramework;
+using WikiTutorial.Entities.ClientEntity;
 using WikiTutorial.Entities.ProductEntity;
 
 namespace WikiTutorial.EntityFramework
@@ -9,6 +10,7 @@ namespace WikiTutorial.EntityFramework
     {
         //TODO: Define an IDbSet for each Entity...
         public virtual IDbSet<Product> Products { get; set; }
+        public virtual IDbSet<Client> Clients { get; set; }
 
         //Example:
         //public virtual IDbSet<User> Users { get; set; }
