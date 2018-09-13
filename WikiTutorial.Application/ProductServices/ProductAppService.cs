@@ -25,21 +25,14 @@ namespace WikiTutorial.ProductServices
         {
             var produto = input.MapTo<Product>();
             var createdProdutoId = await _productManager.Create(produto);
-            return new CreateProductOutput
-            {
-                Id = createdProdutoId
-            };
 
-        }
+           return new CreateProductOutput
+             {
+                 Id = createdProdutoId
+             };
 
-        public async Task<CreateProductOutput> CreateProductAsync(CreateProductInput input)
-        {
-            var produto = input.MapTo<Product>();
-            var createdProdutoId = await _productManager.Create(produto);
-            return new CreateProductOutput
-            {
-                Id = createdProdutoId
-            };
+            //return createdProdutoId.MapTo<CreateProductOutput>();
+           //Só posso mapear quando os atributos forem os mesmo nomes!!!!!!
         }
 
         public async Task DeleteProduct(long id)

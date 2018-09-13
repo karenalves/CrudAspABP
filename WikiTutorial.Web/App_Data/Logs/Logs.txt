@@ -2933,3 +2933,370 @@ DEBUG 2018-09-13 09:46:54,915 [1    ] Abp.Logging.LogHelper                    -
 DEBUG 2018-09-13 09:46:54,916 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
 WARN  2018-09-13 09:47:02,128 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
 WARN  2018-09-13 09:47:02,197 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-09-13 11:16:34,025 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-13 11:16:34,104 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-13 11:16:34,111 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 11:16:34,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 11:16:34,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 11:16:34,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 11:16:34,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 11:16:34,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 11:16:34,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 11:16:34,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 11:16:34,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 11:16:34,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 11:16:34,115 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 11:16:34,115 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 11:16:34,115 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 11:16:34,133 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-13 11:16:35,054 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 11:16:42,643 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-13 11:16:42,850 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-13 11:16:42,872 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-13 11:16:42,985 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-13 11:16:43,561 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-13 11:16:43,700 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-13 11:16:44,082 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-13 11:16:44,083 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-13 11:16:58,863 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 11:16:58,936 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 11:17:57,802 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'EditProduct' in localization source 'WikiTutorial'!
+WARN  2018-09-13 11:17:57,803 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'WikiTutorial'!
+WARN  2018-09-13 11:17:57,803 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'WikiTutorial'!
+ERROR 2018-09-13 11:18:16,777 [15   ] nHandling.AbpApiExceptionFilterAttribute - 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+======================================================================
+Int64 -> CreateProductOutput (Destination member list)
+System.Int64 -> WikiTutorial.ProductServices.Dtos.CreateProductOutput (Destination member list)
+
+Unmapped properties:
+Id
+
+AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+======================================================================
+Int64 -> CreateProductOutput (Destination member list)
+System.Int64 -> WikiTutorial.ProductServices.Dtos.CreateProductOutput (Destination member list)
+
+Unmapped properties:
+Id
+
+   em AutoMapper.ConfigurationValidator.AssertConfigurationIsValid(IEnumerable`1 typeMaps)
+   em AutoMapper.MapperConfiguration.AssertConfigurationIsValid(TypeMap typeMap)
+   em lambda_method(Closure , Int64 , CreateProductOutput , ResolutionContext )
+   em lambda_method(Closure , Object , Object , ResolutionContext )
+   em AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   em AutoMapper.Mapper.Map[TDestination](Object source)
+   em Abp.AutoMapper.AutoMapExtensions.MapTo[TDestination](Object source)
+   em WikiTutorial.ProductServices.ProductAppService.<CreateProduct>d__2.MoveNext() na C:\Users\soitic\Desktop\soitic\CrudAspABP\WikiTutorial.Application\ProductServices\ProductAppService.cs:linha 33
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__1`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+ERROR 2018-09-13 11:20:27,679 [7    ] nHandling.AbpApiExceptionFilterAttribute - 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+======================================================================
+Int64 -> CreateProductOutput (Destination member list)
+System.Int64 -> WikiTutorial.ProductServices.Dtos.CreateProductOutput (Destination member list)
+
+Unmapped properties:
+Id
+
+AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+======================================================================
+Int64 -> CreateProductOutput (Destination member list)
+System.Int64 -> WikiTutorial.ProductServices.Dtos.CreateProductOutput (Destination member list)
+
+Unmapped properties:
+Id
+
+   em AutoMapper.ConfigurationValidator.AssertConfigurationIsValid(IEnumerable`1 typeMaps)
+   em AutoMapper.MapperConfiguration.AssertConfigurationIsValid(TypeMap typeMap)
+   em lambda_method(Closure , Int64 , CreateProductOutput , ResolutionContext )
+   em lambda_method(Closure , Object , Object , ResolutionContext )
+   em AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   em AutoMapper.Mapper.Map[TDestination](Object source)
+   em Abp.AutoMapper.AutoMapExtensions.MapTo[TDestination](Object source)
+   em WikiTutorial.ProductServices.ProductAppService.<CreateProduct>d__2.MoveNext() na C:\Users\soitic\Desktop\soitic\CrudAspABP\WikiTutorial.Application\ProductServices\ProductAppService.cs:linha 33
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__1`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+ERROR 2018-09-13 11:21:04,477 [11   ] nHandling.AbpApiExceptionFilterAttribute - 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+======================================================================
+Int64 -> CreateProductOutput (Destination member list)
+System.Int64 -> WikiTutorial.ProductServices.Dtos.CreateProductOutput (Destination member list)
+
+Unmapped properties:
+Id
+
+AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+======================================================================
+Int64 -> CreateProductOutput (Destination member list)
+System.Int64 -> WikiTutorial.ProductServices.Dtos.CreateProductOutput (Destination member list)
+
+Unmapped properties:
+Id
+
+   em AutoMapper.ConfigurationValidator.AssertConfigurationIsValid(IEnumerable`1 typeMaps)
+   em AutoMapper.MapperConfiguration.AssertConfigurationIsValid(TypeMap typeMap)
+   em lambda_method(Closure , Int64 , CreateProductOutput , ResolutionContext )
+   em lambda_method(Closure , Object , Object , ResolutionContext )
+   em AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   em AutoMapper.Mapper.Map[TDestination](Object source)
+   em Abp.AutoMapper.AutoMapExtensions.MapTo[TDestination](Object source)
+   em WikiTutorial.ProductServices.ProductAppService.<CreateProduct>d__2.MoveNext() na C:\Users\soitic\Desktop\soitic\CrudAspABP\WikiTutorial.Application\ProductServices\ProductAppService.cs:linha 33
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__1`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+DEBUG 2018-09-13 12:09:08,315 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-13 12:09:08,374 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-13 12:09:08,381 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:09:08,383 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:09:08,384 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:09:08,384 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:09:08,384 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:09:08,384 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:09:08,385 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:09:08,385 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:09:08,385 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:09:08,385 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:09:08,385 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:09:08,386 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:09:08,386 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:09:08,397 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-13 12:09:08,930 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:09:12,851 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-13 12:09:13,152 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-13 12:09:13,182 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-13 12:09:13,255 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-13 12:09:13,599 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-13 12:09:13,720 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-13 12:09:14,133 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-13 12:09:14,134 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-13 12:09:26,116 [5    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 12:09:26,176 [5    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-09-13 12:17:04,772 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-13 12:17:04,816 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-13 12:17:04,821 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.Web.WikiTutorialWebModule, WikiTutorial.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:17:04,823 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:17:04,823 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:17:04,824 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:17:04,824 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:17:04,824 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialDataModule, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:17:04,824 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:17:04,824 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:17:04,824 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialCoreModule, WikiTutorial.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:17:04,824 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialApplicationModule, WikiTutorial.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:17:04,825 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:17:04,825 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WikiTutorial.WikiTutorialWebApiModule, WikiTutorial.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:17:04,825 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:17:04,839 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-13 12:17:05,544 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: WikiTutorial.EntityFramework.WikiTutorialDbContext, WikiTutorial.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-13 12:17:09,550 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-13 12:17:09,632 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-13 12:17:09,649 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-13 12:17:09,693 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WikiTutorial
+DEBUG 2018-09-13 12:17:10,003 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-13 12:17:10,125 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-13 12:17:10,394 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ProductServices.IProductAppService' with service name 'app/product'.
+DEBUG 2018-09-13 12:17:10,395 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'WikiTutorial.ClientServices.IClientAppService' with service name 'app/client'.
+WARN  2018-09-13 12:17:18,319 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 12:17:18,371 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-13 12:17:40,592 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'EditProduct' in localization source 'WikiTutorial'!
+WARN  2018-09-13 12:17:40,593 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'WikiTutorial'!
+WARN  2018-09-13 12:17:40,593 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'WikiTutorial'!
+ERROR 2018-09-13 12:18:19,836 [9    ] nHandling.AbpApiExceptionFilterAttribute - 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+======================================================================
+Int64 -> CreateProductOutput (Destination member list)
+System.Int64 -> WikiTutorial.ProductServices.Dtos.CreateProductOutput (Destination member list)
+
+Unmapped properties:
+Id
+
+AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+======================================================================
+Int64 -> CreateProductOutput (Destination member list)
+System.Int64 -> WikiTutorial.ProductServices.Dtos.CreateProductOutput (Destination member list)
+
+Unmapped properties:
+Id
+
+   em AutoMapper.ConfigurationValidator.AssertConfigurationIsValid(IEnumerable`1 typeMaps)
+   em AutoMapper.MapperConfiguration.AssertConfigurationIsValid(TypeMap typeMap)
+   em lambda_method(Closure , Int64 , CreateProductOutput , ResolutionContext )
+   em lambda_method(Closure , Object , Object , ResolutionContext )
+   em AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   em AutoMapper.Mapper.Map[TDestination](Object source)
+   em Abp.AutoMapper.AutoMapExtensions.MapTo[TDestination](Object source)
+   em WikiTutorial.ProductServices.ProductAppService.<CreateProduct>d__2.MoveNext() na C:\Users\soitic\Desktop\soitic\CrudAspABP\WikiTutorial.Application\ProductServices\ProductAppService.cs:linha 34
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__1`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()

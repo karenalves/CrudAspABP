@@ -49,7 +49,6 @@ namespace WikiTutorial.ClientServices
 
         public async Task<GetClientByIdOutput> GetByIdClient(long id)
         {
-
             return (await _clientManager.GetByIdClient(id)).MapTo<GetClientByIdOutput>();
         }
 
